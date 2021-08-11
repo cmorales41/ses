@@ -1,16 +1,14 @@
-/* paletas rojas */
+/* paletas negras*/
 
-Body {background-color:#00171F;}
+Body {background-color:#00171F;
+padding: 20px;}
 
 header{color: #FFFFFF;
 text-align: center}
 
 
 
-   img{
-width; 50px;
-height; 50px;
-}
+
 h1{
 text-align: center;}
 h1 tit{color:#FFFFFF;}
@@ -19,7 +17,7 @@ h2{text-align: center;
 font-weight: lighter;
 color:#534EE9;}
 main{
-padding:15px;
+padding:25px;
 color: #2b2d42;
 background-color: #AEE3F9; 
 margin-left: auto;
