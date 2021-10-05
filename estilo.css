@@ -11,7 +11,7 @@ header{color: #FFFFFF;
 padding:auto;
 width:300px;
 display: inline;
-border-radius:15px;
+border-radius:12px;
 border:4px dasher;
 
 }
@@ -46,6 +46,7 @@ main{
 padding:25px;
 color: #2b2d42;
 background-color: #AEE3F9; 
+border-radius: 12px;
 margin-left: auto;
 Margin-right: auto;}
 
@@ -55,8 +56,8 @@ list-style-type:none;
 background-color:#C2D1DF;
 color:#265783;
 padding:10px;
-margin:40px;
-border-radius:13px;
+margin:20px;
+border-radius:12px;
 text-align:rigth;}
 nav:hover{background-color:#FFFFFF;
 padding: 15px;
