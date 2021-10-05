@@ -4,13 +4,39 @@ Body {background-color:#00171F;
 padding: 20px;}
 
 header{color: #FFFFFF;
-text-align: center}
+
+}
+
+#sed{margin:0;
+padding:auto;
+width:300px;
+display: inline;
+border-radius:15px;
+border:4px dasher;
+
+}
+#frase{
+display:inline-block;
+padding:10px;
+position:absolute;
+left:500px;
+margin-left:auto;
+margin-right:10px;
+text-align:right;
 
 
 
+}
 
+b{ 
+padding:20px;
+}
 h1{
-text-align: center;}
+display:inline;
+text-align: center;
+padding:50px;
+margin:40px;
+}
 h1 tit{color:#FFFFFF;}
 h3{color:#64dfdf;}
 h2{text-align: center;
@@ -22,9 +48,21 @@ color: #2b2d42;
 background-color: #AEE3F9; 
 margin-left: auto;
 Margin-right: auto;}
-nav{list-style-type:none;
-color:#FFFFFF;}
-nav:hover{background-color:#90EE90;}
+
+nav{
+display:block;
+list-style-type:none;
+background-color:#C2D1DF;
+color:#265783;
+padding:10px;
+margin:40px;
+border-radius:13px;
+text-align:rigth;}
+nav:hover{background-color:#FFFFFF;
+padding: 15px;
+}
+
+
 img{margin-left:auto;
 Margin-right:auto;}
 
