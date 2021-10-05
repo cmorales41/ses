@@ -1,16 +1,26 @@
 /* paletas negras*/
 
 Body {background-color:#00171F;
-padding: 20px;}
+padding: 20px;
+margin-top:200px;}
 
-header{color: #FFFFFF;
+header{
+background-color:#000000;
+position: fixed;
+width: 100%;
+top: 5px;
+transform: translateY(0);
+}
+a{
+border:solid 1px;
+color:#362828;
 
 }
-
 #sed{margin:0;
 padding:auto;
 width:300px;
 display: inline;
+margin:5px;
 border-radius:12px;
 border:4px dasher;
 
@@ -19,12 +29,6 @@ border:4px dasher;
 display:inline-block;
 padding:10px;
 position:absolute;
-left:500px;
-margin-left:auto;
-margin-right:10px;
-text-align:right;
-
-
 
 }
 
@@ -51,12 +55,14 @@ margin-left: auto;
 Margin-right: auto;}
 
 nav{
-display:block;
+display:inline-block;
+position:absolute;
+top:60px;
 list-style-type:none;
 background-color:#C2D1DF;
-color:#265783;
+color:#362828;
 padding:10px;
-margin:20px;
+margin:20px 5px;
 border-radius:12px;
 text-align:rigth;}
 nav:hover{background-color:#FFFFFF;
