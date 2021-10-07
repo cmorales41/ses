@@ -1,7 +1,10 @@
 /* paletas negras*/
 
 Body {background-color:#00171F;
-padding: 20px;
+padding-top: 0px;	
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
 margin-top:200px;}
 
 header{
@@ -9,8 +12,11 @@ background-color:#000000;
 position: fixed;
 z-index: 2020;
 width: 100%;
-top: 5px;
-transform: translateY(0);
+top: 0px;
+margin-left: auto;
+margin-right: auto;
+
+
 }
 a{
 
@@ -22,7 +28,7 @@ color:#1C0D0D;
 }
 #sed{margin:0;
 padding:auto;
-width:300px;
+width:250px;
 display: inline;
 margin:5px;
 border-radius:12px;
@@ -61,18 +67,24 @@ Margin-right: auto;}
 nav{
 display:inline-block;
 position:absolute;
-top:30px;
+top: 25px;
+margin:20px 5px auto 5px;
 list-style-type:none;
 background-color:#C2D1DF;
 color:#265783;
 padding:20px;
-margin:20px 5px;
+
 border-radius:12px;
 text-align:rigth;}
-nav:hover{background-color:#FFFFFF;
+
+#lista:hover{background-color:#FFFFFF;
 padding: 25px;
 }
 
+
+
+
+}
 
 img{margin-left:auto;
 Margin-right:auto;}
