@@ -1,6 +1,6 @@
 /* paletas negras*/
 
-Body {background-color:#00171F;
+Body {background-color:#FFFFFF;
 padding-top: 0px;	
 padding-left: 20px;
 padding-right: 20px;
@@ -8,7 +8,7 @@ padding-bottom: 20px;
 margin-top:200px;}
 
 header{
-background-color:#00171F;
+background-color:#FFFFFF;
 position: fixed;
 z-index: 2020;
 width: 100%;
@@ -22,7 +22,7 @@ a{
 
 padding:5px;
 margin:5px;
-color:#1C0D0D;
+color:#595959;
 
 
 }
@@ -37,7 +37,7 @@ border:4px dasher;
 }
 #frase{
 	font-size: 13px;
-	color:#AEE3F9;
+	color:#4488EE;
 	margin-bottom: 5px;
 display:inline-block;
 padding: 15px;
@@ -55,31 +55,57 @@ margin:20px 20px auto 5px;
 list-style-type:none;
 background-color:#C2D1DF;
 font-size: 20px;
-color:#265783;
+color:#4488EE;
 padding:20px;
-
+transition: 1s;
 border-radius:12px;
-text-align:rigth;}
+text-align:rigth;
+}
 
-#lista:hover{background-color:#FFFFFF;
-padding: 25px;
+nav:hover{
+	background-color: whitesmoke;
+	padding: 25px;
+	cursor: pointer;
 }
 
 
 
-img{margin-left:auto;
-border-radius:12px;
-width: 450px;
-padding: 5px;
-Margin-right:auto;}
+.bnn{
+	display: flex;
+	width: 800px;
+	height: 350px;
+	margin: 5px;
+}
 
-#a,#b,#c,#d{
-	opacity: 0,4;
+
+
+
+.bnn img{
+	height: 100%;
+	width: 100%;
+	margin: 5px;
+	border-radius: 12px;
+	object-fit: cover;
+}
+
+.img{
+	display: inline-block;
+	width: 350px;
+	height: 450px;
+	margin: 5px;
 	border-radius: 12px;
 }
 
+.img img{
+	height: 100%;
+	width: 100%;
+	margin: 5px;
+	border-radius: 12px;
+	object-fit: cover;
+}
 b{ 
 padding:20px;
+color: black;
 }
 h1{
 display:inline;
@@ -87,16 +113,16 @@ text-align: center;
 padding:50px;
 margin:40px;
 }
-h1 tit{color:#FFFFFF;}
-h3{color:#64dfdf;}
+h1 tit{color:#1B1B1B;}
+h3{color:#1B1B1B;}
 h2{text-align: center;
 font-weight: lighter;
-color:#534EE9;}
+color:#1B1B1B;}
 
 main{
 padding:25px;
-color: #2b2d42;
-background-color: #AEE3F9; 
+color: #fff;
+background-color: #4488EE; 
 border-radius: 12px;
 margin-left: auto;
 Margin-right: auto;}
@@ -105,7 +131,7 @@ Margin-right: auto;}
 	
 }
 
-a{}
+
 table{
 text-align:center;
 border-style:solid;
