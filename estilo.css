@@ -39,6 +39,7 @@ border:4px dasher;
 	
 	color:black;
 	margin-bottom: 5px;
+	margin-left: 25px;
 display:inline-block;
 padding: 15px;
 
@@ -53,7 +54,7 @@ position:absolute;
 top: 60px;
 margin:20px 20px auto 5px;
 list-style-type:none;
-background-color:#C2D1DF;
+
 font-size: 20px;
 color:#4488EE;
 padding:20px;
@@ -63,7 +64,7 @@ text-align:rigth;
 }
 
 nav:hover{
-	background-color: whitesmoke;
+	
 	padding: 25px;
 	cursor: pointer;
 }
