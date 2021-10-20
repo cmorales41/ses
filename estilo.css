@@ -36,7 +36,7 @@ border:4px dasher;
 
 }
 #frase{
-	font-size: 13px;
+	
 	color:black;
 	margin-bottom: 5px;
 display:inline-block;
@@ -143,16 +143,9 @@ tr{}
 td{border-style:solid;
 border-width:1px;
 border-color:#2C3C93;}
-p{line-height: 100%;
-word-spacing:8px;
-letter-spacing:1px;
-font-family:Comic Sans MS,Times New Roman;}
-h4{
-font-variant: small-caps;
-letter-spacing:1px;}
-ol{list-style-image:url(../pic/baile9.png);}
-ul{list-style-type:none;}
-li{}
+
+
+
 footer{
 color:#ADD8E6;
 }
