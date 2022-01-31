@@ -1,153 +1,178 @@
-/* paletas negras*/
-
-Body {background-color:#FFFFFF;
-padding-top: 0px;	
-padding-left: 20px;
-padding-right: 20px;
-padding-bottom: 20px;
-margin-top:150px;}
-
-header{
-background-color:#FFFFFF;
-position: fixed;
-z-index: 2020;
-width: 100%;
-top: 0px;
-margin-left: 0;
-margin-right: 0;
-
+body{
+	background-image: url(./img/fondo.png);
+	background-size:90px;
 
 }
-a{
 
-padding:5px;
-margin:5px;
-color:#595959;
-
+.nav_responsive_ul{
+display: none;
 
 }
-#sed{margin:0;
-padding:auto;
-width:250px;
-display: inline;
-margin:5px;
-border-radius:12px;
-border:4px dasher;
+
+.nav{
+	background-color: skyblue;
+	color: whitesmoke;
 
 }
-#frase{
+
+
+.nav_li{
+	display:  inline-block;
+	padding: 14px;
 	
-	color:black;
-	margin-bottom: 5px;
-	margin-left: 25px;
-display:inline-block;
-padding: 15px;
-
-position:absolute;
-text-align: center;
 
 }
-
-nav{
-display:inline-block;
-position:absolute;
-top: 60px;
-margin:20px 20px auto 5px;
-list-style-type:none;
-
-font-size: 20px;
-color:#4488EE;
-padding:20px;
-transition: 1s;
-border-radius:12px;
-text-align:rigth;
-}
-
-nav:hover{
-	
-	padding: 25px;
-	cursor: pointer;
+.nav_li a{
+	color:  whitesmoke;
+	text-decoration: none;
 }
 
 
+.nav_li :hover {
+	color: blueviolet;
+}
 
-.bnn{
+.nav_li i{
+	width: 40px;
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 4px;
+}
+.container{padding: 20px;5px;
+	background: lightskyblue;
+	animation-name: fondo;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes fondo{
+	0%{background: lightskyblue;}
+	100%{background: blueviolet;}
+}
+
+.caja{
+	font-family:sans-serif;
+	font-size: 90px;
+	color: whitesmoke;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	animation-name: desplazarse;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-iteration-count:1;
+	animation-direction: alternate;	
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+
+}
+
+
+@keyframes desplazarse{
+
+0% {
+margin-left: 0%;
+}
+100%{margin-left: 40%;}
+
+}
+
+
+.container_flex{
 	display: flex;
-	width: 800px;
-	height: 350px;
+	padding: 5px;
+	margin:  7px;
+	background-color: salmon;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+.caja_grilla{
+	display: flex;
+	margin: 6px;
+	padding: 10px;
+	background-color: greenyellow;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 400px;
+	min-width: 250px;
+	flex: 1;
+
+
+}
+
+
+.item{
+	min-width: 70px;
+	height: 120px;
+	background-color: black;
+	display: flex;
 	margin: 5px;
-}
-h4,h6{ color: #E2F1F2; }
-
-
-
-.bnn img{
-	height: 100%;
-	width: 100%;
-	margin: 5px;
-	border-radius: 12px;
-	object-fit: cover;
+	flex-direction: column;
 }
 
-.img{
-	display: inline-block;
-	width: 350px;
-	height: 450px;
-	margin: 5px;
-	border-radius: 12px;
+.item:hover{
+	background-color: deepskyblue;
 }
-
-.img img{
-	height: 100%;
-	width: 100%;
-	margin: 5px;
-	border-radius: 12px;
-	object-fit: cover;
-}
-b{ 
-padding:7px;
-color: black;
-}
-h1{
-display:inline;
-text-align: center;
-padding:50px;
-margin:40px;
-}
-h1 tit{color:#1B1B1B;}
-h3{color:#1B1B1B;}
-h2{text-align: center;
-font-weight: lighter;
-color:#1B1B1B;}
-
-main{
-padding:25px;
-color: #fff;
-background-color: #4488EE; 
-border-radius: 12px;
-margin-left: auto;
-Margin-right: auto;}
-
-
-	
+.orange{
+	background-color: orange;
 }
 
 
-table{
-text-align:center;
-border-style:solid;
-border-width:1px;
-border-color:#2C3C93;}
-table:hover{background-color:#90EE90;}
-div{}
-tr{}
-td{border-style:solid;
-border-width:1px;
-border-color:#2C3C93;}
 
 
+@media only screen and (max-width: 600px)
+{
 
-footer{
-color:#ADD8E6;
+.nav_ul{
+	display: none;
+    }
+
+.nav_responsive_ul{
+	display: block;
+	color: whitesmoke;
+	list-style-type: none;
+	padding: 6px;
+	font-size: 16px;
+
+	}
+.nav_responsive_li{
+	margin: 4px;
 }
 
+
+.nav_responsive_li:hover > a {
+	color: blueviolet;
+}
+.nav_responsive_li i{
+	width: 40px;
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 4px;
+}
+
+.nav_responsive_li a{
+	color:  whitesmoke;
+	text-decoration: none;
+
+}
+
+
+.caja{
+	font-family:sans-serif;
+	font-size: 40px;
+	color: whitesmoke;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	animation-name: desplazarse;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-iteration-count:1;
+	animation-direction: alternate;	
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+}
+
+
+}
